@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	font-family: Segoe UI Black;
+	font-style: Italic;
+	width: 1349px;
+}
+.div0{
+	margin-top: 0px;
+	padding-top: 60px;
+	padding-left: 20px;
+	height: 770px;
+	background-image: url("club.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.category{
+	float: left;
+	width: 16.66666%;
+	height: 350px;
+	text-align: center;
+	font-size: 32px;
+	font-variant: small-caps;
+	border-radius: 20px;
+	margin: 15px 20px;
+	text-shadow:
+	-1px -1px 0 white,  
+	1px -1px 0 white,
+	-1px 1px 0 white,		
+	1px 1px 0 white;	
+}
+.category:hover{
+	transition: 0.5s;
+	cursor: pointer;
+	font-size: 34px;
+	color: white;
+	text-shadow:
+	-1px -1px 0 #000,  
+	1px -1px 0 #000,
+	-1px 1px 0 #000,		
+	1px 1px 0 #000;
+}
+
+.football{
+	background-image: url("football.jpg");
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: center;
+}
+.football:hover{
+	background-size: 170%;
+	color: lightgreen;
+}
+
+.basketball{
+	background-image: url("basketball.jpg");
+	background-repeat: no-repeat;
+	background-size: 160%;
+	background-position: center;
+}
+.basketball:hover{
+	background-size: 180%;
+	color: orange;
+}
+
+.tennis{
+	background-image: url("tennis.jpg");
+	background-repeat: no-repeat;
+	background-size: 140%;
+	background-position: center;
+}
+.tennis:hover{
+	background-size:160%;
+	color: rgb(240, 250, 100);
+}
+
+.tt{
+	background-image: url("tt.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+.tt:hover{
+	background-size: 120%;
+	
+}
+
+.acting{
+	background-image: url("acting.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+.acting:hover{
+	background-size: 110%;
+}
+
+.dancing{
+	background-image: url("dancing.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+.dancing:hover{
+	background-size:120%;
+	color: pink;
+}
+
+.music{
+	background-image: url("music.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: left center;
+}
+.music:hover{
+	background-size: 115%;
+	background-position: left center;
+	color: rgb(255, 70, 120);
+}
+
+.chess{
+	background-image: url("chess.jpg");
+	background-repeat: no-repeat;
+	background-size: 110%;
+	background-position: center;
+}
+.chess:hover{
+	background-size: 130%;
+}
+
+.cubing{
+	background-image: url("cubing.jpg");
+	background-repeat: no-repeat;
+	background-size: 105%;
+	background-position: center;
+}
+.cubing:hover{
+	background-size:125%;
+	color: rgb(120, 250, 40);
+}
+
+.swimming{
+	background-image: url("swimming.jpg");
+	background-repeat: no-repeat;
+	background-size: 210%;
+	background-position: center;
+}
+.swimming:hover{
+	background-size: 230%;
+	color: aqua;
+}

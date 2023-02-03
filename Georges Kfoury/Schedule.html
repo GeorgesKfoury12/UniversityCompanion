@@ -1,0 +1,182 @@
+<!doctype HTML>
+<html>
+<head>
+<title>
+	ScheduleMaker
+</title>
+<script type="text/javascript">
+	function color(a){
+		var course = ["I2201", "I2202", "I2203", "I2204", "I2205", "M2250", "M2251", "S2250", "Custom", "Clear"];
+		var course1 = document.getElementById("selectbox").value;
+		if(course1 == course[0]){
+			document.getElementById("square"+a).style.backgroundColor="rgba(250, 40, 40, 0.9)";
+			document.getElementById("square"+a).innerHTML = course[0];
+		}
+		if(course1 == course[1]){
+			document.getElementById("square"+a).style.backgroundColor="rgba(250, 100, 40, 0.9)";
+			document.getElementById("square"+a).innerHTML = course[1];
+		}
+		if(course1 == course[2]){
+			document.getElementById("square"+a).style.backgroundColor="rgba(250, 250, 40, 0.9)";
+			document.getElementById("square"+a).innerHTML = course[2];
+		}
+		if(course1 == course[3]){
+			document.getElementById("square"+a).style.backgroundColor="rgba(100, 250, 40, 0.9)";
+			document.getElementById("square"+a).innerHTML = course[3];
+		}
+		if(course1 == course[4]){
+			document.getElementById("square"+a).style.backgroundColor="rgba(100, 20, 250, 0.9)";
+			document.getElementById("square"+a).innerHTML = course[4];
+		}
+		if(course1 == course[5]){
+			document.getElementById("square"+a).style.backgroundColor="rgba(10, 30, 250, 0.9)";
+			document.getElementById("square"+a).innerHTML = course[5];
+		}
+		if(course1 == course[6]){
+			document.getElementById("square"+a).style.backgroundColor="rgba(180, 180, 30, 0.9)";
+			document.getElementById("square"+a).innerHTML = course[6];
+		}
+		if(course1 == course[7]){
+			document.getElementById("square"+a).style.backgroundColor="rgba(120, 110, 210, 0.9)";
+			document.getElementById("square"+a).innerHTML = course[7];
+		}
+		if(course1 == course[8]){
+			var content = window.prompt("ENTER COURSE NAME: ");
+			document.getElementById("square"+a).style.backgroundColor=document.getElementById("color").value;
+			document.getElementById("square"+a).innerHTML = content;
+		}
+		if(course1 == course[9]){
+			document.getElementById("square"+a).style.backgroundColor="rgba(255, 255, 255, 0.5)";
+			document.getElementById("square"+a).innerHTML = "";
+		}
+	}
+</script>
+<link rel="stylesheet" type="text/css" href="Style Sheets\navbar.css">
+<link rel="stylesheet" type="text/css" href="Style Sheets\schedule.css">
+</head>
+<body>
+<div class="navbar">
+	<a href="Homepage.html">Home</a>
+	<a href="Schedule.html" class="active">Schedule</a>
+	<a href="Clubs.html">Clubs</a>
+	<a href="Follow.html">Follow Us</a>
+	<a href="Support.html">Support</a>
+</div>
+<div class="div0">
+	<h1 align="center">MAKE YOUR SCHEDULE</h1>
+</div>
+<div class="courseselect">
+	<span class="matiere">Select the Course:</span>
+	<select id="selectbox">
+		<option>I2201</option>
+		<option>I2202</option>
+		<option>I2203</option>
+		<option>I2204</option>
+		<option>I2205</option>
+		<option>M2250</option>
+		<option>M2251</option>
+		<option>S2250</option>
+		<option>Custom</option>
+		<option>Clear</option>
+	</select>
+	<span class="colorpick">Select a Color:</span>
+	<input type="color" id="color"/>
+</div>
+<div class="schedule">
+	<table border="2">
+	<thead>
+	<tr>
+		<th></th>
+		<th>Monday</th>
+		<th>Tuesday</th>
+		<th>Wednesday</th>
+		<th>Thursday</th>
+		<th>Friday</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="side">08:00 - 09:00</td>
+		<td id="square0" onclick="color(0)"></td>
+		<td id="square1" onclick="color(1)"></td>
+		<td id="square2" onclick="color(2)"></td>
+		<td id="square3" onclick="color(3)"></td>
+		<td id="square4" onclick="color(4)"></td>
+	</tr>
+	<tr>
+		<td class="side">09:00 - 10:00</td>
+		<td id="square5" onclick="color(5)"></td>
+		<td id="square6" onclick="color(6)"></td>
+		<td id="square7" onclick="color(7)"></td>
+		<td id="square8" onclick="color(8)"></td>
+		<td id="square9" onclick="color(9)"></td>
+	</tr>
+	<tr>
+		<td class="side">10:00 - 11:00</td>
+		<td id="square10" onclick="color(10)"></td>
+		<td id="square11" onclick="color(11)"></td>
+		<td id="square12" onclick="color(12)"></td>
+		<td id="square13" onclick="color(13)"></td>
+		<td id="square14" onclick="color(14)"></td>
+	</tr>
+	<tr>
+		<td class="side">11:00 - 12:00</td>
+		<td id="square15" onclick="color(15)"></td>
+		<td id="square16" onclick="color(16)"></td>
+		<td id="square17" onclick="color(17)"></td>
+		<td id="square18" onclick="color(18)"></td>
+		<td id="square19" onclick="color(19)"></td>
+	</tr>
+	<tr>
+		<td class="side">12:00 - 13:00</td>
+		<td id="square20" onclick="color(20)"></td>
+		<td id="square21" onclick="color(21)"></td>
+		<td id="square22" onclick="color(22)"></td>
+		<td id="square23" onclick="color(23)"></td>
+		<td id="square24" onclick="color(24)"></td>
+	</tr>
+	<tr>
+		<td class="side">13:00 - 14:00</td>
+		<td id="square45" onclick="color(45)"></td>
+		<td id="square46" onclick="color(46)"></td>
+		<td id="square47" onclick="color(47)"></td>
+		<td id="square48" onclick="color(48)"></td>
+		<td id="square49" onclick="color(49)"></td>
+	</tr>
+	<tr>
+		<td class="side">14:00 - 15:00</td>
+		<td id="square25" onclick="color(25)"></td>
+		<td id="square26" onclick="color(26)"></td>
+		<td id="square27" onclick="color(27)"></td>
+		<td id="square28" onclick="color(28)"></td>
+		<td id="square29" onclick="color(29)"></td>
+	</tr>
+	<tr>
+		<td class="side">15:00 - 16:00</td>
+		<td id="square30" onclick="color(30)"></td>
+		<td id="square31" onclick="color(31)"></td>
+		<td id="square32" onclick="color(32)"></td>
+		<td id="square33" onclick="color(33)"></td>
+		<td id="square34" onclick="color(34)"></td>
+	</tr>
+	<tr>
+		<td class="side">16:00 - 17:00</td>
+		<td id="square35" onclick="color(35)"></td>
+		<td id="square36" onclick="color(36)"></td>
+		<td id="square37" onclick="color(37)"></td>
+		<td id="square38" onclick="color(38)"></td>
+		<td id="square39" onclick="color(39)"></td>
+	</tr>
+	<tr>
+		<td class="side">17:00 - 18:00</td>
+		<td id="square40" onclick="color(40)"></td>
+		<td id="square41" onclick="color(41)"></td>
+		<td id="square42" onclick="color(42)"></td>
+		<td id="square43" onclick="color(43)"></td>
+		<td id="square44" onclick="color(44)"></td>
+	</tr>
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

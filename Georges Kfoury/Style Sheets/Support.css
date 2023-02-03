@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	background-image: url("club.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: center right;
+	background-repeat: no-repeat;
+	font-family: Segoe UI Black;
+	color: rgb(230, 250, 20);
+	font-style: Italic;
+	text-shadow:
+	-1px -1px 0 #000,  
+	1px -1px 0 #000,
+	-1px 1px 0 #000,		
+	1px 1px 0 #000;
+	width: 1349px;
+}
+.div0{
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-top: 60px;
+}
+.div1{
+	margin-bottom: 40px;
+	margin-right: 30px;
+	margin-left: 50px;
+	padding-top: 30px;
+	font-size: 24px;
+}
+.user{
+	font-size: 50px;
+	font-variant: small-caps;
+}
+input{
+	background-color: #CCCCCC;
+	margin: 5px;
+}
+select{
+	font-size: 15px;
+	padding: 13px 13px;
+	background-color: #CCCCCC;
+}
+
+input[type=text], select{
+  width: 100%;
+  padding: 10px 14px;
+  margin: 8px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Segoe UI Black;
+  font-style: Italic;
+  font-size: 16px;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Segoe UI Black;
+  font-style: Italic;
+  font-size: 16px;
+  background-color: #CCCCCC; 
+}
+textarea{
+	width: 80%;
+	font-family: Arial;
+	font-size: 16px;
+	margin: 8px 20px;
+	border-radius: 10px;
+	background-color: #CCCCCC;
+}
+
+input[type=submit] {
+	width: 49%;
+	background-color: #487fff;
+	color: white;
+	padding: 14px 14px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: Segoe UI Black;
+	font-size: 18px;
+}
+input[type=submit]:hover {
+	background-color: rgb(90, 255, 60);
+	color: rgb(10, 40, 40);
+	transition: 0.3s;
+}
+input[type=reset] {
+  width: 49%;
+  background-color: #487fff;
+  color: white;
+  padding: 14px 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Segoe UI Black;
+  font-size: 18px;
+}
+input[type=reset]:hover {
+	background-color: rgb(255, 90, 60);
+	color: rgb(10, 40, 40);
+	transition: 0.3s;
+}

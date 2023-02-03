@@ -1,0 +1,91 @@
+body{
+	font-style: Italic;
+	font-family: Segoe UI Black;
+	margin: 0;
+	background-image: url("club.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: center right;
+	background-repeat: no-repeat;
+	width: 1349px;
+}
+.div0{
+	padding-top: 70px;
+}
+.div0 h1{
+	color: rgb(230, 250, 20);
+	font-size: 70px;
+	font-family: Segoe UI Black;
+	text-shadow: 3px 3px black;
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+table{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 60px;
+	border-collapse: collapse;
+	width: 87%;
+	border-style: hidden;
+}
+th{
+	height: 30px;
+	width: 200px;
+	border: none;
+	font-family: Segoe UI Black;
+	background-color: rgba(0, 200, 140, 0.6);
+	color: #59a7ff;
+	font-size: 22px;
+	padding: 10px 5px;
+	text-shadow:
+	-1px -1px 0 #000,  
+	1px -1px 0 #000,
+	-1px 1px 0 #000,		
+	1px 1px 0 #000;
+}
+td{
+	height: 50px;
+	width: 150px;
+	border: dotted 2px;
+	text-align: center;
+	font-family: Segoe UI Black;
+	font-size: 20px;
+	font-weight: 100;
+	text-shadow:
+	-1px -1px 0 #000,  
+	1px -1px 0 #000,
+	-1px 1px 0 #000,		
+	1px 1px 0 #000;
+	color: #59a7ff;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.side{
+	background-color: rgba(40, 240, 40, 0.6);
+	color: #59a7ff;
+	border: none;
+}
+
+.courseselect{
+	margin-top: 10px;
+	margin-left: 60px;
+	font-size: 30px;
+	color: black;
+}
+.matiere{
+}
+.colorpick{
+	padding-left:20px;
+}
+select{
+	font-size: 24px;
+	font-family: Segoe UI Black;
+	font-style: Italic;
+	padding: 3px 10px;
+	margin: 10px 0px;
+}
+option{	
+	font-size: 20px;
+	padding: 10px 10px;
+}

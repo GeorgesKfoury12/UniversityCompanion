@@ -16,17 +16,17 @@
 		"rgba(120, 110, 210, 0.9)"]
 	function fill(selectedCourse, a) {
 		if (selectedCourse != courses[8]) {
-			document.getElementById("square"+a).style.backgroundColor = colors[courses.indexOf(selectedCourse)]
-			document.getElementById("square"+a).innerHTML = selectedCourse
+			document.getElementById("square" + a).style.backgroundColor = colors[courses.indexOf(selectedCourse)]
+			document.getElementById("square" + a).innerHTML = selectedCourse
 		}
 		else if (selectedCourse == courses[9]) {
-			document.getElementById("square"+a).style.backgroundColor="rgba(255, 255, 255, 0.5)"
-			document.getElementById("square"+a).innerHTML = ""
+			document.getElementById("square" + a).style.backgroundColor="rgba(255, 255, 255, 0.5)"
+			document.getElementById("square" + a).innerHTML = ""
 		}
 		else {
 			var content = window.prompt("ENTER COURSE NAME: ");
-			document.getElementById("square"+a).style.backgroundColor=document.getElementById("color").value
-			document.getElementById("square"+a).innerHTML = content
+			document.getElementById("square" + a).style.backgroundColor=document.getElementById("color").value
+			document.getElementById("square" + a).innerHTML = content
 		}		
 	}
 	function color(a){	
